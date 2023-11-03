@@ -2,9 +2,8 @@
 
 namespace Livewire\Features\SupportIsolatedRequests;
 
-use function Livewire\{ store, wrap };
+use function Livewire\{ store };
 use Livewire\ComponentHook;
-use Illuminate\Routing\Route;
 
 class SupportIsolatedRequests extends ComponentHook
 {
